@@ -1,0 +1,40 @@
+{
+  "name": "fish-news",
+  "version": "1.0.0",
+  "description": "fish news",
+  "main": "index.js",
+  "bin": {
+    "fish": "packages/bin/start.js"
+  },
+  "command": "node ./packages/bin/start.js solidot",
+  "scripts": {
+    "lint": " eslint packages",
+    "start": "./packages/bin/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfhwnqe/fish-news.git"
+  },
+  "keywords": [
+    "fish",
+    "news"
+  ],
+  "author": "nuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lfhwnqe/fish-news/issues"
+  },
+  "homepage": "https://github.com/lfhwnqe/fish-news#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0"
+  },
+  "dependencies": {
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
+    "superagent": "^5.2.2"
+  }
+}
